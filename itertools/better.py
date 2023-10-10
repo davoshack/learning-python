@@ -1,7 +1,9 @@
 import itertools as it
+import ipdb
+
 
 def better_grouper(inputs, n, fillvallue=None):
     iters = [iter(inputs)] * n
-    import ipdb; ipdb.set_trace()
+    ipdb.set_trace()
     return it.zip_longest(*iters, fillvalue=('ABCD'))
 
