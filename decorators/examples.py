@@ -1,4 +1,4 @@
-from decorators import *
+from decorators.demo_decorators import do_twice, timer, debug, slow_down
 import math
 
 @do_twice
